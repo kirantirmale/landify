@@ -1,0 +1,275 @@
+.Achievements-main {
+    width: 100%;
+    padding: 75px 0;
+}
+
+.Achievements-up h1 {
+    color: #5314A9;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+}
+
+.Achievements {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
+.Achievements-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.achi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+}
+
+.achi h4 {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.img-1 img {
+    margin: auto;
+    width: 630px;
+    height: 573;
+}
+
+.img-1 {
+    margin: auto;
+}
+
+.img-main {
+    display: flex;
+    gap: 35px;
+}
+
+.Story-main {
+    width: 100%;
+    padding: 75px 0;
+    background-color: #EBE5FA;
+}
+
+.Story-left {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 88px;
+}
+
+.Story-left h1 {
+    color: #5314A9;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+}
+
+.Story {
+    display: flex;
+    gap: 108px;
+}
+
+.Story-right h4 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.Story-right h5 {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.Story-right p {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+}
+
+.Story-right {
+    display: flex;
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.team-main {
+    width: 100%;
+    padding: 75px 0;
+}
+
+.team-up h1 {
+    color: #5314A9;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.team-up p {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+}
+
+.team-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.team {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 88px;
+}
+
+.team-u {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.team-d {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.team-down {
+    display: flex;
+    margin: auto;
+    gap: 10px;
+}
+
+.ceo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.ceo h5 {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.ceo h6 {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.ceo-2,
+.ceo-4,
+.ceo-6,
+.ceo-8 {
+    margin-bottom: 25px;
+    gap: 16px;
+    margin: auto;
+}
+
+.Vision-main {
+    width: 100%;
+    padding: 75px 0;
+}
+
+.Vision {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 116px;
+}
+
+.Vision-up {
+    display: flex;
+    align-items: flex-start;
+    gap: 87px;
+}
+
+.Vision-left h1 {
+    color: #5314A9;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.Vision-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.Vision-left p {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+}
+
+.Vision-rigth {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.Vision-down {
+    display: flex;
+    align-items: flex-start;
+    gap: 87px;
+}
+
+.Vision-rigth p {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+}
+
+.Vision-rigth h1 {
+    color: #5314A9;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}

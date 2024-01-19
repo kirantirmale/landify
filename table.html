@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Data</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Stored Data</h2>
+    <div id="table-container"></div>
+
+    <script>
+        
+        document.addEventListener("DOMContentLoaded", function () {
+
+            var profileArray = JSON.parse(localStorage.getItem('allProfiles'));
+
+            displayData(profileArray);
+        });
+
+
+        function displayData(profileArray) {
+            var tableContainer = document.getElementById('table-container');
+
+            if (profileArray.length === 0) {
+                tableContainer.innerHTML = '<p>No data available.</p>';
+                return;
+            }
+
+            var table = document.createElement('table');
+
+            var headerRow = table.insertRow();
+
+            for (var key in profileArray[0]) {
+
+                var th = document.createElement('th');
+
+                th.textContent = key;
+
+                headerRow.appendChild(th);
+            }
+
+            profileArray.map(function (profile) {
+                var row = table.insertRow();
+                for (var key in profile) {
+                    var cell = row.insertCell();
+                    cell.textContent = profile[key];
+                }
+            });
+
+
+            tableContainer.appendChild(table);
+        }
+
+    </script>
+</body>
+
+</html>

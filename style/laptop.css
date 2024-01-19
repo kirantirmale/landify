@@ -1,0 +1,218 @@
+@media screen and (max-width:1024px) {
+    .main-bussness {
+        display: block;
+    }
+
+    ul li a {
+        padding: 0;
+        text-decoration: none;
+        color: #262625;
+        /* font-weight: bold; */
+        transition: .5s;
+    }
+
+    .heading-home {
+        width: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    .heading-home h1 {
+        color: #5314A9;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        /* font-family: 'Roboto Mono', monospace; */
+        font-size: 78px;
+        font-weight: 500;
+        line-height: 108%;
+        text-transform: capitalize;
+    }
+
+    .about-main {
+        display: block;
+        text-align: center;
+    }
+
+    .achivment {
+        margin: auto;
+    }
+
+    .about-text h5 {
+        margin: auto;
+        padding-top: 25px;
+    }
+
+    .about-right {
+        margin: auto;
+        align-items: center;
+    }
+
+    .project-up {
+        display: block;
+        text-align: center;
+        margin: auto;
+        align-items: center;
+    }
+
+    .project-head p {
+        padding-bottom: 25px;
+    }
+
+    .tech img {
+        width: 288px;
+    }
+
+    .project-down img {
+        margin: auto;
+        align-items: center;
+    }
+    .more img{
+        width: 15px;
+    }
+    .working{
+        display: flex;
+        flex-direction: column;
+    }
+    .working-down{
+        display: block;
+    }
+    .working-up{
+        gap: 381px;
+        display: block;
+        text-align: center;
+    }
+    .working-head h5{
+        margin: auto;
+    }
+    .working-head h1{
+        padding-bottom: 25px;
+    }
+    .test{
+        /* padding-bottom: 25px; */
+        margin-bottom: 25px;
+    }
+    .news-up{
+display: block;
+    }
+    .news-head p{
+        padding-bottom: 25px;
+    }
+    .news-head h1{
+        margin: auto;
+    }
+    .news-head h5{
+        margin: auto;
+    }
+    .news-head p{
+        margin: auto;
+        text-align: center;
+    }
+    .btn-news{
+        margin: auto;
+    }
+    .news-left{
+        display: block;
+        align-items: center;
+        margin: auto;
+    }
+    .news{
+        align-items: center;
+    }
+    .Business{
+        margin-bottom: 25px;
+    }
+    .footer-up{
+        display: block;
+    }
+    .Vector img{
+        display: none;
+    }
+    .right-bussness{
+        text-align: center;
+        margin-top: 25px;
+    }
+    .buss{
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    }
+    .Featured-down{
+        display: block;
+        margin: auto;
+    }
+    .Featured-down img{
+        margin: auto;
+    }
+    .fea-more img{
+        margin: 0;
+    }
+    .fea-tech h2{
+        margin: auto;
+    }
+    .case-study{
+        gap: 313px;
+    }
+    .fea-tech h4{
+
+        margin: auto;
+    }
+    .fea-more{
+        margin: auto;
+    }
+    .img-1 img{
+        width: 307px;
+    }
+    .Achievements-up h1{
+        margin: auto;
+        text-align: center;
+    }
+    .Story{
+        display: block;
+    }
+    .Story-left{
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        display: block;
+    }
+    .Story-right h4{
+        margin-top: 25px;
+    }
+    .Story-left img{
+        width: 350px;
+    }
+    .team-down {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 48px;
+    }
+    .Vision-up{
+        display: block;
+    }
+    .Vision-left h1{
+        margin: auto;
+    }
+    .Vision-left{
+        text-align: center;
+    }
+    .Vision-rigth img{
+        margin: auto;
+    }
+    .Vision-down{
+        display: block;
+    }
+    .Vision-left img{
+        margin: auto;
+    }
+    .Vision-rigth h1{
+        margin: auto;
+        margin-top: 25px;
+    }
+    .Vision-rigth{
+        text-align: center;
+    }
+    .block{
+        display: none;
+    }
+}
